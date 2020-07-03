@@ -14,5 +14,6 @@ function dropRight(items, numberOfItemsToDrop) {
 const friends = ['Jim B.', 'Tito', 'Jack D.']
 const goodFriends = dropRight(friends, 1)
 const bestFriendForever = dropRight(friends, 2)
+const noFriendos = dropRight(friends, 3)
 
-console.log( {friends, goodFriends, bestFriendForever })
+console.log( {friends, goodFriends, bestFriendForever, noFriendos })
